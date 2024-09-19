@@ -9,26 +9,29 @@
 </head>
 <body>
 
-    <div class="bg-black h-screen w- screen p-5">
-        <div class="w-96 bg-white border border-gray-300 p-5 rounded-lg">
+    <div class="bg-gray-800 h-screen w- screen p-5">
+        <div>
+            <h1 class="text-white text-center text-3xl font-bold mb-5">Sistema de Login</h1>
+            <div>
+                <label for="emailField" class="block text-white mt-2 text-lg">Endereço de e-mail</label>
+                <input type="email" id="emailField" class="block bg-gray-700 rounded-md text-lg w-full p-1 border-2 border-gray-600 outline-yellow-500 mt-2 text-white">
+            </div>
 
             <div>
-                <div class="inline-block">
-                    <img src="https://tailwindui.com/img/avatar-3.jpg" alt="" class="rounded-full w-14 h-14">
-                </div>
-                <div class="inline-block ml-5">
-                    <div>Vampeta Guimarães</div>
-                    <div class="text-gray-400 my-1">Te mandou um convite!</div>
-                </div>
+                <label for="passwordField" class="block text-white mt-2 text-lg">Senha</label>
+                <input type="password" id="passwordField" class="block bg-gray-700 rounded-md text-lg w-full p-1 border-2 border-gray-600 outline-yellow-500 mt-2 text-white">
             </div>
-            <div class="mt-2">
-                <button class="bg-blue-700 rounded-lg px-4 py-1 text-white hover:bg-blue-500">Aceitar</button>
-                <button class="ml-2 border border-gray-300 rounded-lg px-4 py-1 hover:bg-red-600 hover:text-white">Negar</button>
-            </div>
-
+            <button class="bg-yellow-500 w-full p-2 mt-4 rounded-md hover:bg-yellow-600">
+                Entrar
+            </button>
+            
+            
+        </div>
+        <div class="text-gray-500 mt-3 text-center">
+            Não é membro? 
+            <a href="" class="text-yellow-500 font-bold hover:underline">Faça seu cadastro aqui.</a>
         </div>
 
-        </div>
     </div>
 
 </body>
