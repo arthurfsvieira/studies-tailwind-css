@@ -674,6 +674,10 @@ video {
   height: 4rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .w-96 {
   width: 24rem;
 }
@@ -722,6 +726,10 @@ video {
   width: 4rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .min-w-80 {
   min-width: 20rem;
 }
@@ -756,12 +764,24 @@ video {
   flex-direction: column;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
 
 .gap-1 {
   gap: 0.25rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-lg {
@@ -833,12 +853,48 @@ video {
   background-color: rgb(6 182 212 / var(--tw-bg-opacity));
 }
 
+.bg-indigo-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 48 163 / var(--tw-bg-opacity));
+}
+
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(https\:\/\/asset\.skoiy\.com\/dncxpgxxypnfpero\/fcuunpkapmuf\.png\?w\=1852\&q\=80\&crop\=1109\2c 832\2c 66\2c 0\)\] {
+  background-image: url(https://asset.skoiy.com/dncxpgxxypnfpero/fcuunpkapmuf.png?w=1852&q=80&crop=1109,832,66,0);
+}
+
+.bg-\[url\(\"https\:\/\/asset\.skoiy\.com\/dncxpgxxypnfpero\/fcuunpkapmuf\.png\?w\=1852\&q\=80\&crop\=1109\2c 832\2c 66\2c 0\"\)\] {
+  background-image: url("https://asset.skoiy.com/dncxpgxxypnfpero/fcuunpkapmuf.png?w=1852&q=80&crop=1109,832,66,0");
+}
+
+.bg-\[url\(\'https\:\/\/asset\.skoiy\.com\/dncxpgxxypnfpero\/fcuunpkapmuf\.png\?w\=1852\&q\=80\&crop\=1109\2c 832\2c 66\2c 0\'\)\] {
+  background-image: url('https://asset.skoiy.com/dncxpgxxypnfpero/fcuunpkapmuf.png?w=1852&q=80&crop=1109,832,66,0');
 }
 
 .from-green-400 {
@@ -861,6 +917,19 @@ video {
   --tw-gradient-to: #fef08a var(--tw-gradient-to-position);
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -869,13 +938,78 @@ video {
   padding: 1.25rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
 .pt-1 {
   padding-top: 0.25rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-blue-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
+.text-sky-800 {
+  --tw-text-opacity: 1;
+  color: rgb(7 89 133 / var(--tw-text-opacity));
+}
+
+.text-sky-400 {
+  --tw-text-opacity: 1;
+  color: rgb(56 189 248 / var(--tw-text-opacity));
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 .transition-all {
@@ -927,9 +1061,60 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:h-auto {
+    height: auto;
+  }
+
+  .md\:w-32 {
+    width: 8rem;
+  }
+
+  .md\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .md\:rounded-none {
+    border-radius: 0px;
+  }
+
   .md\:bg-emerald-500 {
     --tw-bg-opacity: 1;
     background-color: rgb(16 185 129 / var(--tw-bg-opacity));
+  }
+
+  .md\:p-0 {
+    padding: 0px;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .md\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 }
 
